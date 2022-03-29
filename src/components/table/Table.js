@@ -189,13 +189,13 @@ export const Table = () => {
                                     <button className='ms-1 btn btn-success' type="button" onClick={openModal}> Nuevo registro</button>
                                 </div>
                                 <div className="col-sm-3">
-                                  <div class="input-group"><span class="input-group-text">Desde</span>
-                                  <input class="form-control" type="date" placeholder="dd/mm/aaa"  required/>
+                                  <div className="input-group"><span className="input-group-text">Desde</span>
+                                  <input className="form-control" type="date" placeholder="dd/mm/aaa"  required/>
                                   </div>
                                 </div>
                                 <div className="col-sm-3">
-                                <div class="input-group"><span class="input-group-text">Hasta</span>
-                                  <input class="form-control" type="date" placeholder="dd/mm/aaa" required/>
+                                <div className="input-group"><span className="input-group-text">Hasta</span>
+                                  <input className="form-control" type="date" placeholder="dd/mm/aaa" required/>
                                 </div>
                                 </div>
                                 <div className="col-sm-3">

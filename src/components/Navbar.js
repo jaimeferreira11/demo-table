@@ -1,5 +1,8 @@
 import React from 'react'
 
+import logo from "../assets/images/logo/logo.png";
+
+
 export const Navbar = () => {
   return (
     <>
@@ -8,10 +11,10 @@ export const Navbar = () => {
         <div className="main-header-right row m-0">
           <div className="main-header-left">
             <div className="logo-wrapper"><a href="index.html">
-                <img className="img-fluid" src={process.env.PUBLIC_URL + "/assets/images/logo/logo.png"} alt="" />
+                <img className="img-fluid" src={logo} alt="" />
                     </a></div>
             <div className="dark-logo-wrapper"><a href="index.html">
-                <img className="img-fluid" src={process.env.PUBLIC_URL +"/assets/images/logo/dark-logo.png"} alt="" />
+                <img className="img-fluid" src={logo} alt="" />
                     </a></div>
             <div className="toggle-sidebar"><i className="status_toggle middle" data-feather="align-center" id="sidebar-toggle"></i></div>
           </div>
